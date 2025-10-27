@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /projecten/PHP_0/toets/
+
+# Redirect all PHP requests to the php directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.php$ php/$1.php [L]
+
+# Serve static files directly
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
