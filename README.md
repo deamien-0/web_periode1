@@ -28,7 +28,7 @@ Dependency management: Composer
 🚀 Installatie-instructies
 Stap 1: Project downloaden
 bashgit clone https://github.com/deamien-0/web_periode1.git
-cd gegevenssprint
+cd web_periode1
 Stap 2: Dependencies installeren
 Open een terminal/command prompt in de projectmap en voer uit:
 bashcomposer install
