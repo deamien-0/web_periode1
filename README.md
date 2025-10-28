@@ -1,8 +1,8 @@
 Een webapplicatie gebouwd in PHP van een funko website 
 📋 Functionaliteiten
 
-Gebruikersbeheer: Registreer een account met alleen een gebruikersnaam en leeftijd
-Uniek inlogsysteem: Eenvoudige authenticatie op basis van naam en leeftijd
+Gebruikersbeheer: Registreer een account met een email gebruikersnaam en wachtwoord
+Uniek inlogsysteem: Eenvoudige authenticatie op basis van naam/email en wachtwoord
 Profielbeheer:
 
 Wijzig je accountnaam
